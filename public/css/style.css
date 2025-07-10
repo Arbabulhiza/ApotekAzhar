@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;  
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #225195;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 450;
+    color: #4cd0e1;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#home {
+    background-image: url('zarr.jpg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right 120%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.navbar {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+#navbar {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-warna {
+    background-color: #225195;
+}
+.btn-warna:hover {
+    background-color: #4cd0e1;
+}
+
+.navbar-warna {
+    color: #4cd0e1;
+    text-decoration: none;
+    font-size: 24px;
+}
+.navbar-warna:hover {
+  color: #225195;
+}
+
+.nav-link {
+    color: #4cd0e1;
+}
+.nav-link:hover {
+    color: #225195;
+}
+
+.text-wrna {
+    color: #ffffff;
+}
+
+.table-warna {
+     color: #225195;
+}
+
+#produk .card {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+#produk .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#layanan h4 {
+  color: #225195;
+}
+
+#layanan p {
+  font-size: 14px;
+  color: #555;
+}
+
+#layanan {
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+}
+
+.layanan-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.layanan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.foto-layanan {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#lokasi p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+footer a:hover {
+  color: #4cd0e1;
+  transition: 0.3s;
+}
